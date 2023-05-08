@@ -21,10 +21,10 @@ class Config(object):
     OWNER_USERNAME = "innocentpalabolte"
     SUPPORT_CHAT = "innocentop"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001770762410
+        -1001853214762
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001770762410
+        -1001853214762
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= ""
     # RECOMMENDED
@@ -47,7 +47,7 @@ class Config(object):
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     TIGERS = get_user_list("elevated_users.json", "6019689682")
     WOLVES = get_user_list("elevated_users.json", "whitelists")
-    DONATION_LINK = "https://t.me/itz_legend_coder" # EG, paypal
+    DONATION_LINK = "https://t.me/innocentpapabolte" # EG, paypal
     CERT_PATH = None
     PORT = 5000
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
