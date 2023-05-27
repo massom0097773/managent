@@ -17,14 +17,14 @@ class Config(object):
     API_ID = "" # integer value, dont use ""
     API_HASH = ""
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = "6019689682" # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "innocentpalabolte"
+    OWNER_ID = "6246716406" # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "innocentpapabolte"
     SUPPORT_CHAT = "innocentop"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001853214762
+        -1001903923793
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001853214762
+        -1001903923793
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= ""
     # RECOMMENDED
@@ -39,14 +39,14 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = get_user_list("elevated_users.json", "6019689682")
+    DRAGONS = get_user_list("elevated_users.json", "6246716406")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("elevated_users.json", "6019689682")
+    DEV_USERS = get_user_list("elevated_users.json", "6246716406")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = get_user_list("elevated_users.json", "6019689682")
+    DEMONS = get_user_list("elevated_users.json", "6246716406")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGERS = get_user_list("elevated_users.json", "6019689682")
-    WOLVES = get_user_list("elevated_users.json", "whitelists")
+    TIGERS = get_user_list("elevated_users.json", "6246716406")
+    WOLVES = get_user_list("elevated_users.json", "6246716406")
     DONATION_LINK = "https://t.me/innocentpapabolte" # EG, paypal
     CERT_PATH = None
     PORT = 5000
