@@ -410,7 +410,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="🥀sᴏᴜʀᴄᴇ🥀",
-                            url="https://t.me/innocentop",
+                            url="https://t.me/innocent_world_chat",
                         ),
                     ],
                     [
@@ -438,7 +438,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="🥀ᴅᴇᴠᴇʟᴏᴩᴇʀ🥀", url=OWNER_ID
                         ),
                         InlineKeyboardButton(
-                            text="✨ɢɪᴛʜᴜʙ✨", url="https://t.me/innocentop"
+                            text="✨ɢɪᴛʜᴜʙ✨", url="https://t.me/innocent_world_chat"
                         ),
                     ],
                     [
